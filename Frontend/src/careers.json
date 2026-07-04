@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "description": "Build user interfaces using React, HTML, CSS, JavaScript",
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "description": "Handle server-side logic using Java, Spring Boot, APIs",
+    "skills": ["Java", "Spring Boot", "MySQL", "REST API"]
+  },
+  {
+    "id": 3,
+    "title": "Data Analyst",
+    "description": "Analyze data and create insights using tools and Python",
+    "skills": ["Python", "SQL", "Excel", "Power BI"]
+  }
+]

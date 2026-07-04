@@ -1,0 +1,57 @@
+.career-page {
+  padding: 40px;
+  background: #0b1220;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Title like your image */
+.title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+  padding: 6px 14px;
+  display: inline-block;
+  border: 1px solid #2a3550;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+}
+
+/* GRID like roadmap */
+.career-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+/* CARD STYLE */
+.career-card {
+  background: #0f1a2b;
+  border: 1px solid #1f2a44;
+  padding: 14px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+/* hover effect like modern UI */
+.career-card:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.career-title {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.bookmark {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 16px;
+}
