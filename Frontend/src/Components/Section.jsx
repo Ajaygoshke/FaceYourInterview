@@ -39,7 +39,7 @@ function Section() {
       formData.append("file", file);
 
       const response = await fetch(
-        "http://localhost:8080/api/pdf/analyze",
+        "https://faceyourinterview-9.onrender.com/api/pdf/analyze",
         {
           method: "POST",
           body: formData,
@@ -84,7 +84,7 @@ function Section() {
         formData.append("file", file);
 
         const response = await fetch(
-          "http://localhost:8080/api/pdf/analyze",
+          "https://faceyourinterview-9.onrender.com/api/pdf/analyze",
           {
             method: "POST",
             body: formData,
@@ -102,7 +102,7 @@ function Section() {
 
       // create interview session
       const sessionRes = await fetch(
-        "http://localhost:8080/api/interview/session",
+        "https://faceyourinterview-9.onrender.com/api/interview/session",
         {
           method: "POST",
           headers: {

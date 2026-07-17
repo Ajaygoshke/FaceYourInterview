@@ -7,7 +7,7 @@ function ResumeImages() {
   const [file, setFile] = useState(null);
   const [resumes, setResumes] = useState([]);
 
-  const API = "http://localhost:8080/api/resumes";
+  const API = "https://faceyourinterview-9.onrender.com/api/resumes";
 
   // 📥 FETCH ALL RESUMES
   const fetchResumes = async () => {
@@ -115,7 +115,7 @@ function ResumeImages() {
           <div className="card" key={r.id}>
 
             <iframe
-              src={`http://localhost:8080${r.pdfUrl}`}
+              src={`https://faceyourinterview-9.onrender.com${r.pdfUrl}`}
               className="pdf"
               title={r.title}
             />
@@ -125,7 +125,7 @@ function ResumeImages() {
 
             <div className="buttons">
               <a
-                href={`http://localhost:8080${r.pdfUrl}`}
+                href={`https://faceyourinterview-9.onrender.com${r.pdfUrl}`}
                 target="_blank"
                 rel="noreferrer"
               >
