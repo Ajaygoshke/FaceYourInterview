@@ -8,7 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/pdf")
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "https://face-your-interview.vercel.app/")
 public class PdfController {
 
     private final PdfService pdfService;

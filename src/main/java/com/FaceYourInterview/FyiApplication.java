@@ -8,6 +8,7 @@ public class FyiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FyiApplication.class, args);
+		System.out.print("Started...");
 	}
 
 }
