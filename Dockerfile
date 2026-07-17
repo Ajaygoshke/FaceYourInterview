@@ -12,4 +12,4 @@ EXPOSE 8080
 
 
 # Run the application
-CMD ["java", "-jar", "FYI-1-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/FYI/target/FYI-1-0.0.1-SNAPSHOT.jar"]
