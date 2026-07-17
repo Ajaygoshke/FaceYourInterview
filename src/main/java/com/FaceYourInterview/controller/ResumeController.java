@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/resumes")
-@CrossOrigin(origins = "https://face-your-interview.vercel.app/")
+@CrossOrigin(origins = "https://face-your-interview.vercel.app")
 public class ResumeController {
 
     private final ResumeService service;
