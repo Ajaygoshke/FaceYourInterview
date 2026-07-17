@@ -69,7 +69,7 @@ function LiveInterview() {
 
         try {
             const response = await fetch(
-                `https://faceyourinterview-9.onrender.com/api/interview/start?sessionId=${activeId}`,
+                `https://faceyourinterviews.onrender.com/api/interview/start?sessionId=${activeId}`,
                 { 
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -168,7 +168,7 @@ function LiveInterview() {
         setStatus("Processing criteria evaluation parameters...");
         try {
             const response = await fetch(
-                `https://faceyourinterview-9.onrender.com/api/interview/answer?sessionId=${activeId}`,
+                `https://faceyourinterviews.onrender.com/api/interview/answer?sessionId=${activeId}`,
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
