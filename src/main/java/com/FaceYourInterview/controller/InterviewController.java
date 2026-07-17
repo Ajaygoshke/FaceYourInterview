@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/interview")
-@CrossOrigin(origins = "https://face-your-interview.vercel.app/") // Perfectly matches your Vite React default port!
+@CrossOrigin(origins = "https://face-your-interview.vercel.app") // Perfectly matches your Vite React default port!
 public class InterviewController {
 
     private final InterviewService interviewService;
